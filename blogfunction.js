@@ -3,6 +3,7 @@ function openForm() {
 }
 
 function closeForm() {
+    //event.preventDefault();
     document.getElementById('form').style.display = 'none';
 }
 
@@ -21,6 +22,7 @@ function submitForm(event) {
     closeForm();
     resetForm();
 }
+
 
 function resetForm() {
     document.getElementById('textauthor').value = "";
